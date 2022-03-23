@@ -1,0 +1,1110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.gl-inicio{
+    background-image: url('img/banner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 900px;
+    padding: 20px 0 80px 0;
+}
+
+.gl-center{
+    display: block;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;   
+}
+
+.gl-center h1{
+    margin-top: 200px;
+    font-weight: bold;
+    color: white;
+    font-size: 42px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+.gl-btn button{
+  display: block;
+  background-color: white;
+  text-decoration: none;
+  color: #37474f;
+  padding: 20px;
+  border-radius: 20px 0px 20px 20px;
+  margin-top: 30px;
+  width: 200px;
+  font-weight: 500;
+  border: 0;
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 1s;
+  transform: translateX(5px) scale(1.2);
+}
+
+.gl-btn button:hover,
+  .gl-btn button:focus {
+  color: #2fc9ef;
+  background: white;
+  transform: translateX(10px) scale(0.9 );
+  
+} 
+
+.gl-div-btn{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.gl-btn2 button{
+  background-color: #2fc9ef;
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  border-radius: 20px 0px 20px 20px;
+  margin-top: 30px;
+  width: 200px;
+  font-weight: 500;
+  border: 0;
+  cursor: pointer;
+  margin: -740px auto 0 auto;
+  display: block;
+}
+
+.gl-btn2 i{
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+  
+}
+
+.gl-btn i{
+  color: #2fc9ef;
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+
+.gl-meio{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 0 2%;
+  margin: 0 auto;
+  justify-content: center;
+ 
+
+}
+
+.gl-text-h2 h2{
+  font-size: 32px;
+  text-align: center;
+  margin-top: 50px;
+  color: #263238;
+  margin: 50px auto;
+}
+
+.gl-text-h22 h2{
+  font-size: 32px;
+  text-align: center;
+  color: #263238;
+  margin: 50px auto;
+  margin-top: 800px;
+}
+
+.gl-box{
+
+  background-color: white;
+  padding: 50px;
+  -webkit-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.44);
+  -moz-box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.44);
+  box-shadow: 10px 10px 46px 0px rgba(0,0,0,0.44);
+  width: 25%;
+  margin: 30px 50px;
+  border-radius: 20px;
+  z-index: 1000;
+  transition: transform 1s;
+  transform: translateX(10px) scale(0.8);
+}
+
+
+
+
+
+.gl-box:hover,
+.gl-box:focus {
+  transform: translateX(5px) scale(1);
+} 
+
+
+
+.gl-box h3{
+  font-size: 22px;
+  color: #263238;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.gl-box p{
+  color: #a9b6bc;
+  font-size: 18px;
+}
+
+.gl-sala{
+  margin-top: -1000px;
+  background-image: url('img/fundo1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 1900px;
+  width: 100%;
+  padding: 20px 0 80px 0;
+
+  
+}
+
+
+/*Menu começa aqui*/
+
+div.gl-inicio >#header ul> li >a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Poppins';
+  }
+  
+  div.gl-inicio >#header ul> li >a:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  #logo {
+    margin: 0px 50px;
+  }
+  
+  #icone {
+      margin: 0; 
+  }
+  
+  #header {
+    box-sizing: border-box;
+    height: 70px;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+    gap: 0.5rem;
+  }
+  
+  #menu a {
+    display: block;
+    padding: 0.5rem;
+  }
+  
+  #menu a:hover{
+    border-bottom: 5px solid #fb7dc4;
+  }
+  
+  #btn-mobile {
+    display: none;
+  }
+  /*----*/
+
+  .gl-slider{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 0 auto;
+   
+  }
+
+  .gl-slider .priv-arrow{
+      bottom: -50px;
+      position: absolute;
+      color: #2fc9ef;
+      left: 40%;
+      width: 50px;
+      height: 50px;
+      background-color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      display: inline-block;
+      cursor: pointer;
+      font-size: 50px;
+      margin-top: 30px;
+  }
+
+  .gl-slider .next-arrow{
+    bottom: -50px;
+    position: absolute;
+    color: #2fc9ef;
+    right: 40%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+  .gl-slider p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #546e7a;
+  }
+
+  
+
+  .gl-slider h3{
+    font-size: 18px;
+    font-weight: bold;
+    color: #2fc9ef;
+  }
+
+
+  .gl-margin{
+    padding: 50px;
+  }
+
+  .gl-contact{
+    background-image: url('img/contact.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 900px;
+    padding: 20px 0 80px 0;
+    margin-top: 100px;
+    
+  
+    
+    
+  }
+
+
+
+  .gl-cor{
+    color: #263238;
+  }
+
+  .gl-con-flex{
+  
+    max-width: 1100px;
+    padding: 0 2%;
+    margin: 90px auto;
+  }
+
+  .gl-con-flex h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .gl-con-flex p{
+    text-align: center;
+    color: #b2c9f3;
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .gl-con-flex h4{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .gl-con-flex input{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 30px;
+    width: 380px;
+    font-weight: 500;
+    border: 0;
+    cursor:default;
+    display: block;
+    z-index: 400;
+    cursor:auto;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .gl-con-flex textarea{
+   
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 30px;
+    width: 380px;
+    height: 145px;
+    font-weight: 500;
+    border: 0;
+    cursor:default;
+    display: block;
+    z-index: 400;
+    cursor: auto;
+    display: block;
+    margin: 20px auto;
+    resize: none;
+  }
+
+  .gl-img-flex{
+    display: flex;
+    justify-items: center;
+    margin: 0 auto;
+  }
+
+  .gl-img{
+    right: 1000px;
+  }
+
+  .gl-btn3 button{
+
+    background-color: #2fc9ef;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    border-radius: 20px 0px 20px 20px;
+    margin-top: 30px;
+    width: 140px;
+    font-weight: 500;
+    border: 0;
+    cursor: pointer;
+    z-index: 900;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+  
+
+
+  .gl-btn3 i{
+    color: white;
+    margin-left: 10px;
+    font-size: 14px;
+    
+  }
+   
+  .gl-rodape-bk{
+    background-color: #4897e9;
+    border-bottom: 1px solid white;
+  }
+
+  .gl-rodape-bk2{
+    background-color: #4897e9;
+  }
+
+  .gl-rodape{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+
+  .gl-rodape2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 2%;
+    margin: 0 auto;
+  }
+
+  .gl-rodape2 p{
+    margin-top: 20px;
+    color: white;
+    padding: 10px; 
+    
+  }
+
+  .gl-rodape2 i {
+    margin-top: 20px;
+    color: #4897e9;
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 100%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+ 
+ 
+
+  .gl-top-rp{
+    margin-top: 40px;
+  }
+
+  .gl-itens-roda img{
+    padding: 30px ;
+  }
+
+  .gl-itens-roda2{
+    padding: 20px;
+    width: 30%;
+    color: white;
+    font-size: 13px;
+  }
+  .gl-itens-roda2 p{
+    font-size: 15px;
+  }
+
+  .gl-itens-roda3{
+    padding: 30px;
+    color: white;
+    font-size: 13px;
+  }
+
+  .gl-itens-roda3 h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 40px;
+  }
+
+  .gl-itens-roda3 p{
+    font-size: 17px;
+    cursor: pointer;
+    padding: 5px;
+    
+  }
+
+ 
+ 
+
+
+
+@media (max-width: 1600px) {
+
+
+
+  
+
+  .gl-box{
+    width: 33.3%;
+  }
+
+  .gl-inicio{
+    min-height: 670px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+  width: 80%;
+
+}
+
+ 
+}
+
+@media (max-width: 1364px) {
+
+
+  
+
+  .gl-box{
+    width: 40.3%;
+  }
+
+  .gl-inicio{
+    min-height: 570px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+  width: 65%;
+
+}
+
+}
+
+@media (max-width: 1200px) {
+
+
+  
+
+  .gl-inicio{
+    min-height: 550px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+}
+
+@media (max-width: 1024px) {
+  
+
+  .gl-box img {
+    display: block;
+    margin: 0 auto;
+    min-height: 30px;
+}
+
+  .gl-box{
+    width: 100%;
+  }
+  .gl-box h3 {
+    font-size: 25px;
+    color: #263238;
+    text-align: center;
+  }
+  .gl-box p{
+      text-align: center;
+      color: #a9b6bc;
+      font-size: 22px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+  
+}
+
+@media (max-width: 922px) {
+
+
+ 
+
+
+  .gl-box{
+    width: 100%;
+  }
+
+  .gl-box{
+    display: block;
+  }
+  
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+
+  #menu {
+      display: block;
+      position: absolute;
+      width: 100%;
+      top: 110px;
+      right: 0px;
+      transition: 0.6s;
+      z-index: 1000;
+      height: 0px;
+      visibility: hidden;
+      overflow-y: hidden;
+      background: #468de7;
+    }
+    #nav.active #menu {
+      height: calc(100vh - 70px);
+      visibility: visible;
+      overflow-y: auto;
+    }
+    #menu a {
+      padding: 1rem 0;
+      margin: 0 1rem;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.05);
+    }
+    #btn-mobile {
+      display: flex;
+      padding: 0.5rem 1rem;
+      font-size: 1rem;
+      border: none;
+      background: none;
+      cursor: pointer;
+      gap: 0.5rem;
+      color: white;
+    }
+    #hamburger {
+      color: white;
+      border-top: 2px solid;
+      width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+      content: '';
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: currentColor;
+      margin-top: 5px;
+      transition: 0.3s;
+      position: relative;
+    }
+    #nav.active #hamburger {
+      border-top-color: transparent;
+    }
+    #nav.active #hamburger::before {
+      transform: rotate(135deg);
+    }
+    #nav.active #hamburger::after {
+      transform: rotate(-135deg);
+      top: -7px;
+    }
+  
+    #logo {
+      margin: 0 15px;
+    }
+
+}
+
+@media  (max-width: 768px) {
+
+  .gl-itens-roda{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .gl-itens-roda2{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+  .gl-itens-roda3{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .gl-rodape2 p{
+    color: white;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .gl-rodape2 i{
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    color: #4897e9;
+    padding: 20px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 100%;
+    cursor: pointer;
+  
+  }
+
+  .gl-btn button{
+    transition: transform 1s;
+    transform: translateX(5px) scale(0.9);
+  }
+  
+  .gl-btn button:hover,
+    .gl-btn button:focus {
+    color: #2fc9ef;
+    background: white;
+    transform: translateX(10px) scale(0.8);
+    
+  } 
+  
+
+  .gl-slider .priv-arrow{
+    bottom: -50px;
+    position: absolute;
+    color: #2fc9ef;
+    left: 30%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 40px;
+   
+}
+
+.gl-slider .next-arrow{
+  bottom: -50px;
+  position: absolute;
+  color: #2fc9ef;
+  right: 30%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 40px;
+  
+}
+
+
+  .gl-meio{
+    flex-wrap: wrap;
+  }
+
+  .gl-box{
+   display: block;
+   margin: 40px auto;
+   flex-basis: 100%;
+
+  }
+
+  .gl-box img{
+    display: block;
+    margin: 0 auto;
+    min-height: 30px;
+  }
+
+  .gl-box h3{
+    margin: 10px 0;
+    text-align: center;
+    font-size: 22px;
+    color: #263238;
+  }
+  
+  .gl-box p{
+    text-align: center;
+    padding: 0;
+    color: #a9b6bc;
+    font-size: 16px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+
+}
+
+@media (max-width: 600px) {
+
+  
+
+ 
+  .gl-meio{
+    flex-wrap: wrap;
+  }
+
+  .gl-box{
+   display: block;
+   margin: 40px auto;
+
+  }
+
+  .gl-box h3{
+    font-size: 22px;
+    color: #263238;
+  }
+  
+  .gl-box p{
+    padding: 0;
+    color: #a9b6bc;
+    font-size: 16px;
+  }
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+
+}
+
+@media (max-width: 576px) {
+
+  .gl-con-flex h2{
+    font-size: 28px;
+  }
+
+  .gl-con-flex input{
+    width: 280px;
+   
+  }
+
+  .gl-con-flex textarea{
+    width: 280px;
+   
+  }
+
+  .gl-slider .priv-arrow{
+    bottom: -50px;
+    position: absolute;
+    color: #2fc9ef;
+    left: 25%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 35px;
+   
+}
+
+.gl-slider .next-arrow{
+  bottom: -50px;
+  position: absolute;
+  color: #2fc9ef;
+  right: 25%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 35px;
+  
+}
+
+  .gl-meio{
+    flex-wrap: wrap;
+  }
+
+  .gl-box{
+   display: block;
+   margin: 40px auto;
+
+  }
+
+  .gl-box h3{
+    font-size: 22px;
+    color: #263238;
+  }
+  
+  .gl-box p{
+    padding: 0;
+    color: #a9b6bc;
+    font-size: 16px;
+  }
+
+  .gl-center h1 {
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 25px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  margin-top: 15px;
+  width: 100%;
+
+}
+
+
+}
+
+@media (max-width: 375px){
+  .gl-con-flex h2{
+    font-size: 23px;
+  }
+  
+
+
+  .gl-slider .priv-arrow{
+    bottom: -50px;
+    position: absolute;
+    color: #2fc9ef;
+    left: 20%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 30px;
+   
+}
+
+.gl-slider .next-arrow{
+  bottom: -50px;
+  position: absolute;
+  color: #2fc9ef;
+  right: 20%;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px;
+  
+}
+
+
+  .gl-meio{
+    flex-wrap: wrap;
+  }
+
+  .gl-box{
+   display: block;
+   margin: 40px auto;
+
+  }
+
+  .gl-box h3{
+    font-size: 22px;
+    color: #263238;
+  }
+  
+  .gl-box p{
+    padding: 0;
+    color: #a9b6bc;
+    font-size: 16px;
+  }
+
+
+  .gl-center h1 {
+    margin-top: 45px;
+    font-weight: 500;
+    color: white;
+    /* width: 80%; */
+    font-size: 18px;
+}
+
+.gl-center p{
+  color: white;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2;
+  margin-top: 15px;
+
+}
+}
+
+
