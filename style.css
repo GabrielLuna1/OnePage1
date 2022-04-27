@@ -501,7 +501,9 @@ div.gl-inicio >#header ul> li >a {
     padding: 5px;
     
   }
-
+  .gl-itens-roda3 p:hover{
+    border-bottom: 3px solid #fb7dc4;
+  }
  
  
 
